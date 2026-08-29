@@ -12,7 +12,7 @@ background-image: url(background-pattern-desktop.svg);
 background-repeat: no-repeat;
 /* background-blend-mode:color-burn; */
 background-color:hsl(0, 50%, 80%);
-font-family: "assets/fonts/WorkSans-VariableFont_wght.ttf";
+font-family: "WorkSans-VariableFont_wght.ttf";
 }
 
 main{
@@ -105,7 +105,7 @@ p:hover{
     text-shadow:0.05rem 0.05rem 1rem hsl(0, 0%, 80%);
 }
 
-@media  (max-width:300px){
+@media (min-width:0px) and (max-width:300px){
     body{
         background-image: url(assets/images/background-pattern-mobile.svg);
         background-repeat: no-repeat;
