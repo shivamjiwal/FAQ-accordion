@@ -19,14 +19,14 @@ let answers = [`<p class = "info">
 for(let i=0; i < plusIcon.length; i++){
 plusIcon[i].addEventListener("click", function(){
     // console.log("icon clicked")
-    plusIcon[i].src = "assets/images/icon-minus.svg";
+    plusIcon[i].src = "icon-minus.svg";
     plusIcon[i].alt = "Collapse Icon"
     const existingAnswers = sections[i].querySelector(".info")
         if(!existingAnswers){
             sections[i].insertAdjacentHTML("beforeend", answers[i])
         // sections[i].innerHTML += answers[i]
         }else{
-             plusIcon[i].src = "assets/images/icon-plus.svg"
+             plusIcon[i].src = "icon-plus.svg"
              plusIcon[i].alt = "Expand icon"
              existingAnswers.remove();
         }
