@@ -100,6 +100,11 @@ p:hover{
     text-shadow:0.05rem 0.05rem 1rem hsl(0, 0%, 80%);
 }
 
+.info:hover{
+    color:#525252;
+    text-shadow:0.05rem 0.05rem 1rem hsl(0, 0%, 80%);
+}
+
 @media  (max-width:300px){
     body{
         background-image: url(assets/images/background-pattern-mobile.svg);
